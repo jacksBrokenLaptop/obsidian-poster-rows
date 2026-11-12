@@ -44,7 +44,11 @@ jobs:
               run: |
                   tag="${GITHUB_REF#refs/tags/}"
 
+                  # Use this version's section of CHANGELOG.md as the release notes
+                  awk -v ver="## $tag" '$0 == ver { found = 1; next } found && /^## / { exit } found' CHANGELOG.md > release-notes.md
+
                   gh release create "$tag" \
                     --title="$tag" \
+                    --notes-file=release-notes.md \
                     --draft \
                     main.js manifest.json ${{ steps.styles.outputs.exists == 'true' && 'styles.css' || '' }}
