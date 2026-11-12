@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-poster-rows",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Poster rows view for Obsidian Bases",
 	"main": "main.js",
 	"type": "module",

@@ -1,7 +1,7 @@
 {
 	"id": "poster-rows",
 	"name": "Poster Rows",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"minAppVersion": "1.10.0",
 	"description": "Adds a Bases view that shows notes as a featured banner and horizontally scrolling rows of cover images.",
 	"author": "jacksBrokenLaptop",
