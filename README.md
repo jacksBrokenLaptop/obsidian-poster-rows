@@ -70,6 +70,10 @@ npm run build   # type-check and production build
 npm run lint
 ```
 
+## Support
+
+If Poster Rows is useful to you, you can [buy me a coffee on Ko-fi](https://ko-fi.com/jacksbrokenlaptop). Bug reports and ideas are welcome in [issues](https://github.com/jacksBrokenLaptop/obsidian-poster-rows/issues).
+
 ## License
 
 MIT

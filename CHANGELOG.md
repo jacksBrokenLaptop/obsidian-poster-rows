@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2
+
+- Added a Ko-fi link, so a Donate button shows on the plugin's page in Obsidian.
+
 ## 0.1.1
 
 - Checked against Obsidian's latest plugin API (1.14.4). No behavior changes.
