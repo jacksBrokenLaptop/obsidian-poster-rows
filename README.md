@@ -51,6 +51,10 @@ The **featured banner** cycles through the five highest-rated notes that have co
 
 Hover over a card while holding Ctrl/Cmd to preview the note.
 
+## Use it for recommendations
+
+Poster Rows shows whatever notes your base contains, so it pairs well with an AI assistant, or another plugin, that writes notes for you. Have it create a note for each suggestion, with a cover `image` and a property such as `status: suggested`. Then group the view by `status`, and your suggestions show up as their own row next to what you've already watched or read.
+
 ## Privacy
 
 The plugin makes no network requests of its own. Covers that are web URLs are loaded by Obsidian from wherever the URL points, the same way an embedded image in a note is.
