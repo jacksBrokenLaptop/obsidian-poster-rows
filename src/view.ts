@@ -133,7 +133,7 @@ export class PosterRowsView extends BasesView implements HoverParent {
 		this.rotateTimer = window.setInterval(() => {
 			if (!this.rootEl.isConnected) return this.stopRotation();
 			// Don't swap the banner while it is off screen, in a background tab, or being read.
-			if (document.hidden || !this.rootEl.offsetParent || this.heroEl?.matches(':hover, :focus-within')) return;
+			if (this.rootEl.doc.hidden || !this.rootEl.offsetParent || this.heroEl?.matches(':hover, :focus-within')) return;
 			this.heroIndex = (this.heroIndex + 1) % this.featured.length;
 			this.renderHero();
 		}, ROTATE_MS);

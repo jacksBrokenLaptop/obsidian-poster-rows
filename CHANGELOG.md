@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.3
+
+- The featured banner now pauses correctly when its base is open in a pop-out window that's hidden.
+- Updated Obsidian's lint rules.
+
 ## 0.1.2
 
 - Added a Ko-fi link, so a Donate button shows on the plugin's page in Obsidian.
